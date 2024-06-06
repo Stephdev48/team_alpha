@@ -11,6 +11,10 @@ html, body{
     font-family: 'Roboto';
 }
 
+.header_title{
+    font-size: 40px;
+}
+
 nav a {
     padding-left: 40px;
     padding-right: 40px;

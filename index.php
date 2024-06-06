@@ -17,18 +17,18 @@
     <header id="header" class="main_background">
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-3">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="350px">
                 </div>
-                <div class="col-4 d-flex align-items-center">
-                    <h1 class="fs-1 fw-bold text-light">DWWM 48 AWARDS</h1>
+                <div class="col-6 d-flex align-items-center justify-content-center">
+                    <h1 class="header_title fw-bold text-light">DWWM 48 AWARDS</h1>
                 </div>
-                <div class="col-4">
+                <div class="col-3">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="350px">
                 </div>
             </div>
         </div>
-        <nav class="nav justify-content-evenly nav_background_color fw-bold">
+        <nav class="nav justify-content-evenly nav_background_color fw-bold fs-5">
             <a class="nav-item nav-link link-body-emphasis" href="#presentation">Présentation</a>
             <a class="nav-item nav-link link-body-emphasis" href="#candidats">Candidats</a>
             <a class="nav-item nav-link link-body-emphasis" href="#affiche">L'évenement</a>
