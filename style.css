@@ -24,6 +24,10 @@ nav a {
     background-color: rgba(222, 222, 222, 0.734);
 }
 
+.nav_background_color a:hover{
+    background-color: rgba(240, 240, 240, 0.898);
+}
+
 .img_carte_noire{
     margin-left: 30px;
 }
