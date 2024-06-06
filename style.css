@@ -98,3 +98,44 @@ nav a {
     margin-top: 80px;
     margin-bottom: 80px;
 }
+
+.section_avatars_formateurs{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section_compte{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.section_compte_column{
+    background-color: #D9D9D9;
+}
+
+.section_bouton{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.section_bouton_voter{
+    background-color: #D9D9D9;
+    padding: 35px;
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 8px 5px 5px rgb(189, 189, 189);
+}
+
+.section_bouton_voter:hover{
+    background-color: #a1a1a1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.arrow_ancre{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 70px;
+}

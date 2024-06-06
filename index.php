@@ -14,7 +14,7 @@
     <title>DW/WM AWARDS 2024</title>
 </head>
 <body>
-    <header class="main_background">
+    <header id="header" class="main_background">
         <div class="container">
             <div class="row">
                 <div class="col-4">
@@ -30,11 +30,11 @@
         </div>
         <nav class="nav justify-content-evenly nav_background_color">
             <a class="nav-item nav-link link-body-emphasis" href="#presentation">Présentation</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">Candidats</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#candidats">Candidats</a>
             <a class="nav-item nav-link link-body-emphasis" href="#affiche">L'évenement</a>
             <a class="nav-item nav-link link-body-emphasis" href="#bouton_inscription">Inscription</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">Compte à rebours</a>
-            <a class="nav-item nav-link link-body-emphasis" href="#">Voter</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#compte_rebours">Compte à rebours</a>
+            <a class="nav-item nav-link link-body-emphasis" href="#bouton_voter">Voter</a>
         </nav>
     </header>
 
@@ -99,9 +99,176 @@
                 </div>
             </div>
         </div>
+        <div>
+            <hr />
+        </div>
     </section>
 
+    <section>
+        <div id="candidats" class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="fs-5 text-center text-danger">Candidats DW/WM Apprenants 2024</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/agustin.png" alt="agus_avatar" width="150px" class="m-auto"/>
+                    <span class="text-center">Agustin</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/Christophe.png" alt="christophe_avatar" width="150px" class="m-auto"/>
+                    <span class="text-center">Christophe</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/martin.png" alt="martin_avatar" width="150px" class="m-auto"/>
+                    <span class="text-center">Martin</span>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-2 d-flex flex-column">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/annaelle.png" alt="annaelle_avatar" width="150px" class="m-auto"/>
+                <span class="text-center">Annaelle</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/cyril.png" alt="cyril_avatar" width="150px" class="m-auto"/>
+                <span class="text-center">Cyril</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/noe.png" alt="noe_avatar" width="150px" class="m-auto"/>
+                <span class="text-center">Noé</span>
+                </div>
+                <div class="col-3">
+                </div>                    
+            </div>
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/vincent.png" alt="vincent_avatar" width="150px" class="m-auto"/>
+                    <span class="text-center">Vincent</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/barnabe.png" alt="barnabe_avatar" width="150px" class="m-auto"/>
+                    <span class="text-center">Barnabé</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/killian.png" alt="killian_avatar" width="150px" class="m-auto"/>
+                    <span class="text-center">Killian</span>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Apprenants/stephane.png" alt="stephane_avatar" width="150px" class="m-auto"/>
+                    <span class="text-center">Stéphane</span>
+                </div>
+                <div class="col-5">
+                </div>
+            </div>
+        </div>
+        <div class="container section_avatars_formateurs">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="fs-5 text-center text-danger">Candidats DW/WM Formateurs 2024</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Formateurs/cedric.png" alt="cedric_avatar" width="130px" class="m-auto"/>
+                    <span class="text-center">Cédric</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Formateurs/Christophe.png" alt="Christophe_avatar" width="130px" class="m-auto"/>
+                    <span class="text-center">Christophe</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Formateurs/laetitia.png" alt="laetitia_avatar" width="130px" class="m-auto"/>
+                    <span class="text-center">Laétitia</span>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Formateurs/tony.png" alt="tony_avatar" width="140px" class="m-auto"/>
+                    <span class="text-center">Tony</span>
+                </div>
+                <div class="col-2 d-flex flex-column">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Formateurs/luc.png" alt="luc_avatar" width="130px" class="m-auto"/>
+                    <span class="text-center">Luc</span>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <section>
+        <div class="container section_compte">
+            <div class="row">
+                <div class="col-3">
+                </div>
+                <div id="compte_rebours" class="col-6 text-center p-4 d-flex flex-column section_compte_column">
+                    <span class="fw-bold">Compte à rebours avant la remise des prix : </span>
+                    <label id="Compte" class="fw-bold fs-2"></label>
+                    <script type="text/javascript">
+                        var Affiche=document.getElementById("Compte");
+                        function Rebour() {
+                            var date1 = new Date();
+                            var date2 = new Date ("June 20, 2024 00:00:00");
+                            var sec = (date2 - date1) / 1000;
+                            var n = 24 * 3600;
+                            if (sec > 0) {
+                            j = Math.floor (sec / n);
+                            h = Math.floor ((sec - (j * n)) / 3600);
+                            mn = Math.floor ((sec - ((j * n + h * 3600))) / 60);
+                            sec = Math.floor (sec - ((j * n + h * 3600 + mn * 60)));
+                            Affiche.innerHTML = j +" j "+ h +" h "+ mn +" min "+ sec + " s";
+                            window.status = "Temps restant : " + j +" j "+ h +" h "+ mn +" min "+ sec + " s ";
+                            }
+                            tRebour=setTimeout ("Rebour();", 1000);
+                        }
+                        Rebour();
+                    </script>
+                </div>
+                <div class="col-3">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row section_bouton">
+                <div class="col-5">
+                </div>
+                <div id="bouton_voter" class="col-2 text-center section_bouton_voter">
+                    <a href="#" class="text-danger">VOTER !</a>
+                </div>
+                <div class="col-5">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="d-flex justify-content-end">
+        <a href="#header" class="arrow_ancre">
+            <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" fill="currentColor" class="bi bi-arrow-up-square-fill" viewBox="0 0 16 16">
+            <path d="M2 16a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2zm6.5-4.5V5.707l2.146 2.147a.5.5 0 0 0 .708-.708l-3-3a.5.5 0 0 0-.708 0l-3 3a.5.5 0 1 0 .708.708L7.5 5.707V11.5a.5.5 0 0 0 1 0"/>
+            </svg></i>
+        </a>
+    </section>
     <footer class="main_background">
         <div class="container">
             <div class="row">
