@@ -28,7 +28,7 @@
                 </div>
             </div>
         </div>
-        <nav class="nav justify-content-evenly nav_background_color">
+        <nav class="nav justify-content-evenly nav_background_color fw-bold">
             <a class="nav-item nav-link link-body-emphasis" href="#presentation">Présentation</a>
             <a class="nav-item nav-link link-body-emphasis" href="#candidats">Candidats</a>
             <a class="nav-item nav-link link-body-emphasis" href="#affiche">L'évenement</a>
