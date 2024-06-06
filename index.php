@@ -18,13 +18,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="350px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="250px">
                 </div>
                 <div class="col-6 d-flex align-items-center justify-content-center">
                     <h1 class="header_title fw-bold text-light">DWWM 48 AWARDS</h1>
                 </div>
                 <div class="col-3">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="350px">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/header_star.png" alt="star-picture" width="250px">
                 </div>
             </div>
         </div>
