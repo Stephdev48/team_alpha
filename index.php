@@ -54,7 +54,7 @@
                     <h3>Mercredi 12 juin 2024</h3>
                     <span>Date d'échéance des inscriptions : 5 juin</span><br>
                     <i class="bi bi-geo-alt-fill"></i>
-                    <a href="https://fr.mappy.com/plan#/6%20Impasse%20du%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2048000%20Mende"><span class="adresse">6 impasse du Général Leclerc</span></a><br><hr>
+                    <a href="https://fr.mappy.com/plan#/6%20Impasse%20du%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2048000%20Mende" target="_blank"><span class="adresse">6 impasse du Général Leclerc</span></a><br><hr>
                     <i class="bi bi-ticket-fill"></i>
                     <span>10€ <br> (Amener à boire ou à manger)</span><br><hr>
                     <form class="formulaire_inscription">
