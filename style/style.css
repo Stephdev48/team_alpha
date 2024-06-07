@@ -57,12 +57,38 @@ nav a {
 }
 
 .inscription{
+    margin-left: 10%;
+}
+
+.inscription_top{
     background-color: #584641;
     color: white;
     padding: 2.5%;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 10%;
+}
+
+.inscription_places{
+    background-color: #584641;
+    color: white;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inscription_contact{
+    display: flex;
+    flex-direction: row;
+    background-color: #D9D9D9;
+    color: black;
+    padding: 15px; 
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.inscription_contact_mail{
+    margin: auto;
 }
 
 .adresse{
