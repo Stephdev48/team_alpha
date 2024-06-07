@@ -11,6 +11,10 @@ html, body{
     font-family: 'Roboto';
 }
 
+.header_title{
+    font-size: 50px;
+}
+
 nav a {
     padding-left: 40px;
     padding-right: 40px;
@@ -18,6 +22,10 @@ nav a {
 
 .nav_background_color{
     background-color: rgba(222, 222, 222, 0.734);
+}
+
+.nav_background_color a:hover{
+    background-color: rgba(240, 240, 240, 0.898);
 }
 
 .img_carte_noire{
@@ -100,5 +108,42 @@ nav a {
 }
 
 .section_avatars_formateurs{
-    margin-top: 50px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section_compte{
+    margin-top: 150px;
+    margin-bottom: 80px;
+}
+
+.section_compte_column{
+    background-color: #D9D9D9;
+}
+
+.section_bouton{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.section_bouton_voter{
+    background-color: #D9D9D9;
+    padding: 35px;
+    font-size: 30px;
+    border-radius: 25px;
+    box-shadow: 8px 5px 5px rgb(189, 189, 189);
+}
+
+.section_bouton_voter:hover{
+    background-color: #a1a1a1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.arrow_ancre{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    margin-right: 70px;
 }
