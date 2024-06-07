@@ -6,7 +6,6 @@ Version 1.1
 
 
 
-
 html, body{
     font-family: 'Roboto';
 }
@@ -16,8 +15,18 @@ nav a {
     padding-right: 40px;
 }
 
-.nav_background_color{
-    background-color: rgba(222, 222, 222, 0.734);
+.nav_underheader{
+    background-color: rgba(222, 222, 222, 0.734);}
+
+.underheaderlink{
+    align-content: center;
+    padding: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.nav .underheaderlink:hover{
+    color: white;
 }
 
 .img_carte_noire{
@@ -52,12 +61,13 @@ nav a {
     background-color: #584641;
     color: white;
     padding: 2.5%;
+    width: 30%;
     font-size: 18px;
     font-weight: 500;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
-.adresse{
+span .adresse{
     text-decoration: none;
 }
 
@@ -71,27 +81,33 @@ nav a {
 
 .formulaire_inscription{
     width: 500px;
-    justify-content: center;
-    display:flex;
     flex-wrap: wrap;
 }
 
 .nomprenom{
-    width:350px;
+    width:325px;
     background-color: #D9D9D9;
-    margin-bottom: 25px;
 }
 
 .btn_inscription{
     background-color:#A39E9E;
     padding: 2%;
-    width: 350px;
-    margin-top: 25px;
+    width: 325px;
+    margin-top: 30px;
     text-transform: uppercase;
 }
 
 .btn_inscription:hover{
     color: #EEECE1;
+}
+
+.section_contact{
+    background-color: #EEECE1;
+    max-height: ;
+}
+
+.section_contact i{
+    font-size: 30px;
 }
 
 .presentation{
