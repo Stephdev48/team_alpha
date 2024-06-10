@@ -43,18 +43,18 @@
         <div class="container">
             <div class="row">
                 <div id="affiche" class="col-5 affiche">
-                        <span class="fs-1 fw-bold text-dark">DWWM 48 AWARDS</span>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/coupe.png" alt="coupe_vainqueur" width="150px" class="my-4"/>
-                        <div class="d-flex flex-row justify-content-between">
-                            <p class="fw-bold">Mercredi 12 juin 2024</p>
-                            <p class="fw-bold">6 impasse du Général Éclair</p>
-                        </div>
+                    <span class="fs-1 fw-bold text-dark">DWWM 48 AWARDS</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/coupe.png" alt="coupe_vainqueur" width="200px"/>
+                    <div class="d-flex flex-row justify-content-between">
+                        <p class="fs-5 fw-bold">Jeudi 20 juin 2024</p>
+                        <p class="fs-5 fw-bold">6 impasse du Général Éclair</p>
+                    </div>
                 </div>
                 <div class="col-5 inscription">
                     <div class="row inscription_top">
                         <div class="col-12">
-                            <h3>Mercredi 12 juin 2024</h3>
-                            <span>Date d'échéance des inscriptions : 5 juin</span><br>
+                            <h3>Jeudi 20 juin 2024</h3>
+                            <span>Date d'échéance des inscriptions : 19 juin</span><br>
                             <i class="bi bi-geo-alt-fill"></i>
                             <a href="https://fr.mappy.com/plan#/6%20Impasse%20du%20G%C3%A9n%C3%A9ral%20Leclerc%2C%2048000%20Mende" target="_blank"><span class="adresse">6 impasse du Général Leclerc</span></a><br><hr>
                             <i class="bi bi-ticket-fill"></i>
